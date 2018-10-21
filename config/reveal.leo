@@ -9,33 +9,36 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180827201556.1"><vh>@settings</vh>
-<v t="leo.20180827201556.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20181021114621.1"><vh>@settings</vh>
+<v t="leo.20181021114621.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20181021114621.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180827201621.4" a="E"><vh>html</vh>
-<v t="leo.20180827201621.5"><vh>head</vh></v>
-<v t="leo.20180827201621.6" a="E"><vh>body</vh>
-<v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20181021114651.1" a="E"><vh>編輯 reveal</vh>
+<v t="leo.20181021114651.2" a="E"><vh>@path ./../reveal</vh>
+<v t="leo.20181021114651.3" a="E"><vh>@clean index.html</vh>
+<v t="leo.20181021114651.4" a="E"><vh>html</vh>
+<v t="leo.20181021114651.5"><vh>head</vh></v>
+<v t="leo.20181021114651.6" a="E"><vh>body</vh>
+<v t="leo.20181021114651.7" a="E"><vh>reveal div</vh>
+<v t="leo.20181021114651.8" a="E"><vh>slides div</vh>
+<v t="leo.20181021114651.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20181021114651.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181021115410.1" a="E"><vh>投影片1</vh>
+<v t="leo.20181021115410.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20181021114651.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20181021114651.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20181021114651.13"><vh>各式內容引用範例</vh>
+<v t="leo.20181021114651.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20181021114651.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20181021114651.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20181021114651.17"><vh>引用程式碼</vh></v>
+</v>
+<v t="leo.20181021114651.18" a="E"><vh>導入影片</vh>
+<v t="leo.20181021114651.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -47,8 +50,8 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20180827201556.1"></t>
-<t tx="leo.20180827201556.2">QTreeWidget {
+<t tx="leo.20181021114621.1"></t>
+<t tx="leo.20181021114621.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -121,10 +124,10 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="leo.20180827201556.3">horizontal: body pane to the left
+<t tx="leo.20181021114621.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## s40723227 個人網際簡報
+<t tx="leo.20181021114651.1"></t>
+<t tx="leo.20181021114651.10">## s40723227 網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -136,7 +139,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 </t>
-<t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
+<t tx="leo.20181021114651.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -145,7 +148,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20181021114651.12"># 投影片快捷鍵
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -155,12 +158,12 @@ Created by [KMOLab](http://lab.kmol.info/)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
+<t tx="leo.20181021114651.13">&lt;section&gt;
 @others
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
+<t tx="leo.20181021114651.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -171,14 +174,14 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
+<t tx="leo.20181021114651.15"># 數學符號與方程式
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
 
 $$I = \int \rho R^{2} dV$$
 </t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
+<t tx="leo.20181021114651.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -189,7 +192,7 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
+<t tx="leo.20181021114651.17">## 利用 Markdown 寫投影片
 以下利用 Markdown 格式展示 Python 程式碼:
 ```
 @language python
@@ -217,7 +220,7 @@ make = threading.Thread(target=domake)
 make.start()
 ```
 </t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
+<t tx="leo.20181021114651.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -226,24 +229,24 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
+<t tx="leo.20181021114651.19">## 使用 iframe 導入影片
 
 ### 導入影片 template
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20180827201621.2"></t>
-<t tx="leo.20180827201621.3">@language xml
+<t tx="leo.20181021114651.2"></t>
+<t tx="leo.20181021114651.3">@language xml
 @tabwidth -4
 @others
 
 </t>
-<t tx="leo.20180827201621.4">&lt;!doctype html&gt;
+<t tx="leo.20181021114651.4">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
 </t>
-<t tx="leo.20180827201621.5">&lt;head&gt;
+<t tx="leo.20181021114651.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 2018 Fall 分組網際簡報
@@ -277,7 +280,7 @@ make.start()
 &lt;/head&gt;
 
 </t>
-<t tx="leo.20180827201621.6">&lt;body&gt;
+<t tx="leo.20181021114651.6">&lt;body&gt;
 @others
 &lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.js"&gt;&lt;/script&gt;
@@ -306,18 +309,18 @@ make.start()
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20180827201621.7">&lt;div class="reveal"&gt;
+<t tx="leo.20181021114651.7">&lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180827201621.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+<t tx="leo.20181021114651.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
+<t tx="leo.20181021114651.9">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -325,6 +328,22 @@ make.start()
 
 
 						
+</t>
+<t tx="leo.20181021115410.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181021115410.2">### MCAD  s40723227 網際簡報
+
+ * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
+ * [Onshape](https://www.onshape.com) 操作
+
+
 </t>
 </tnodes>
 </leo_file>
