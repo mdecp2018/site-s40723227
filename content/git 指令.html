@@ -1,7 +1,7 @@
 <!doctype html>
 <html><head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<title>計算機程式教材</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
 
 <script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
@@ -17,6 +17,7 @@
 <link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 
+<!-- for LaTeX equations 暫時不用
 <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
@@ -37,12 +38,17 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
+-->
+<!-- 暫時不用
 <script src="./../static/fengari-web.js"></script>
 <script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
 <script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
 <script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
 
 <script src="./../static/jquery.js"></script>
 <script type="text/javascript">
@@ -61,13 +67,13 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課程內容.html'>課程內容</a><ul><li><a href='git 指令.html'>git 指令</a><li><a href='Week11.html'>Week11</a><li><a href='Week21.html'>Week21</a><li><a href='Week31.html'>Week31</a><li><a href='Week41.html'>Week41</a></li></ul><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week12.html'>Week12</a><li><a href='Week22.html'>Week22</a><li><a href='Week32.html'>Week32</a><li><a href='Week42.html'>Week42</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>課程內容 << <a href='課程內容.html'>Previous</a> <a href='Week11.html'>Next</a> >> Week11<br /><h1>git 指令</h1>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課程內容.html'>課程內容</a><ul><li><a href='git 指令.html'>git 指令</a><li><a href='Week 1.html'>Week 1</a><li><a href='Week 2-1.html'>Week 2-1</a><li><a href='Week 3-1.html'>Week 3-1</a><li><a href='Week 4-1.html'>Week 4-1</a></li></ul><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week 2-2.html'>Week 2-2</a><li><a href='Week 3-2.html'>Week 3-2</a><li><a href='Week 4-2.html'>Week 4-2</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>課程內容 << <a href='課程內容.html'>Previous</a> <a href='Week 1.html'>Next</a> >> Week 1<br /><h1>git 指令</h1>
 <p>git clone 從遠端倉儲複製到近端(並建立工作目錄)</p>
 <p>git commit -m "name" 把暫存區之檔案提交到倉儲</p>
 <p>git push 將近端存儲庫中物件推送到遠端倉儲</p>
 <p>git pull=git fetch=git merge origin/master 將遠端倉儲之最新版本下載回來</p>
 <p>git ls-remote 顯示特定遠端倉儲名稱</p>
-<p>mkdir name&nbsp; 創建資料夾</p>
+<p>mkdir name  創建資料夾</p>
 <p>git status 檢查狀態</p>
 <p>cd name 進入資料夾</p>
 <p>git add . 把檔案添加至暫存區(.代表全部)</p>
@@ -80,7 +86,7 @@ $(function(){
 <p>git checkout -b name 建立分支並切換至最新分支</p>
 <p>git checkout -d name 刪除分支</p>
 <p>git stash 將所有已列入追蹤之檔案建立暫存版本</p>
-<p>git stash -u&nbsp;將所有已列入追蹤或未追蹤之檔案建立暫存版本</p>
+<p>git stash -u 將所有已列入追蹤或未追蹤之檔案建立暫存版本</p>
 <p>git stash pop 取回暫存版本</p>
 <p>git config --global user.name "xxx" 設定使用者名稱</p>
 <p>git config --global user.email "xxx@xxx" 設定使用者信箱</p>
@@ -90,4 +96,4 @@ $(function(){
 <p>git init 把當前目錄變成git可管理之倉儲</p>
 <p>git show 查看該版本之相關資訊</p>
 <p>git bebase 把另一分支變更,當作目前使用分支之基礎</p>
-<br />課程內容 << <a href='課程內容.html'>Previous</a> <a href='Week11.html'>Next</a> >> Week11</section></div></body></html>
+<br />課程內容 << <a href='課程內容.html'>Previous</a> <a href='Week 1.html'>Next</a> >> Week 1</section></div></body></html>
