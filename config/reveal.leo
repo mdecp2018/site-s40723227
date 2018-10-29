@@ -21,8 +21,11 @@
 <v t="leo.20181021114651.6" a="E"><vh>body</vh>
 <v t="leo.20181021114651.7" a="E"><vh>reveal div</vh>
 <v t="leo.20181021114651.8" a="E"><vh>slides div</vh>
-<v t="leo.20181021114651.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20181021114651.9"><vh>封面投影片</vh>
 <v t="leo.20181021114651.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181029155217.1" a="E"><vh>Week1</vh>
+<v t="leo.20181029155217.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181021115410.1" a="E"><vh>投影片1</vh>
 <v t="leo.20181021115410.2"><vh>封面投影片內容</vh></v>
@@ -30,7 +33,7 @@
 <v t="leo.20181021114651.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20181021114651.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20181021114651.13"><vh>各式內容引用範例</vh>
+<v t="leo.20181021114651.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20181021114651.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20181021114651.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -342,6 +345,23 @@ make.start()
 
  * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
  * [Onshape](https://www.onshape.com) 操作
+
+
+</t>
+<t tx="leo.20181029155217.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181029155217.2">###Week1 
+
+說明如何利用 p37 中的 git 建立個人的 Github Pages 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TFvVT9JWrFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 </t>
