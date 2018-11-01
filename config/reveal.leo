@@ -21,11 +21,35 @@
 <v t="leo.20181021114651.6" a="E"><vh>body</vh>
 <v t="leo.20181021114651.7" a="E"><vh>reveal div</vh>
 <v t="leo.20181021114651.8" a="E"><vh>slides div</vh>
-<v t="leo.20181021114651.9"><vh>封面投影片</vh>
+<v t="leo.20181021114651.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20181021114651.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101142600.1" a="E"><vh>個人操作影片</vh>
+<v t="leo.20181101142600.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181029155217.1" a="E"><vh>Week1</vh>
 <v t="leo.20181029155217.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140445.1" a="E"><vh>Week2</vh>
+<v t="leo.20181101140445.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140515.1" a="E"><vh>Week3</vh>
+<v t="leo.20181101140515.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140525.1" a="E"><vh>Week4</vh>
+<v t="leo.20181101140525.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140529.1" a="E"><vh>Week5</vh>
+<v t="leo.20181101140529.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140532.1" a="E"><vh>Week6</vh>
+<v t="leo.20181101140532.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101140548.1" a="E"><vh>Week7</vh>
+<v t="leo.20181101140548.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101142348.1" a="E"><vh>Week8</vh>
+<v t="leo.20181101142348.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181021115410.1" a="E"><vh>投影片1</vh>
 <v t="leo.20181021115410.2"><vh>封面投影片內容</vh></v>
@@ -130,9 +154,9 @@ QLineEdit#editorLabel {
 <t tx="leo.20181021114621.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20181021114651.1"></t>
-<t tx="leo.20181021114651.10">## s40723227 網際簡報
+<t tx="leo.20181021114651.10">## &lt;font color="EEEE00"&gt;s40723227 網際簡報&lt;/font&gt;
 
-### 虎科大機械設計工程系
+### &lt;font color="FF4500"&gt;虎科大機械設計工程系&lt;/font&gt;
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
@@ -151,14 +175,14 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20181021114651.12"># 投影片快捷鍵
+<t tx="leo.20181021114651.12"># &lt;font color="FF4500"&gt;投影片快捷鍵&lt;/font&gt;
 
 * 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 按 &lt;font color="EE0000"&gt;f&lt;/font&gt; 鍵進入全螢幕模式 (full screen)
+* 按 &lt;font color="EE0000"&gt;s&lt;/font&gt; 鍵可以顯示投影片筆記 (show)
+* 按 &lt;font color="EE0000"&gt;o&lt;/font&gt; 鍵可以切換單張或全域檢視 (overview)
+* 按 &lt;font color="EE0000"&gt;b&lt;/font&gt; 或 &lt;font color="EE0000"&gt;.&lt;/font&gt; 鍵可以切換螢幕黑屏 (black)
+* 按 &lt;font color="EE0000"&gt;Esc&lt;/font&gt; 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
 <t tx="leo.20181021114651.13">&lt;section&gt;
@@ -177,7 +201,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20181021114651.15"># 數學符號與方程式
+<t tx="leo.20181021114651.15"># &lt;font color="FF4500"&gt;數學符號與方程式&lt;/font&gt;
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
@@ -195,8 +219,9 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20181021114651.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
+<t tx="leo.20181021114651.17">## &lt;font color="EEEE00"&gt;利用 Markdown 寫投影片&lt;/font&gt;
+
+&lt;font color="FF4500"&gt;以下利用 Markdown 格式展示 Python 程式碼:&lt;/font&gt;
 ```
 @language python
 # use threading and subprocess to threading the make process
@@ -232,9 +257,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181021114651.19">## 使用 iframe 導入影片
+<t tx="leo.20181021114651.19">##  &lt;font color="EEEE00"&gt;使用 iframe 導入影片&lt;/font&gt;
 
-### 導入影片 template
+### &lt;font color="FF4500"&gt;導入影片 template&lt;/font&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
@@ -341,7 +366,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181021115410.2">### MCAD  s40723227 網際簡報
+<t tx="leo.20181021115410.2">## &lt;font color="FF4500"&gt;MCAD  s40723227 網際簡報&lt;/font&gt;
 
  * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
  * [Onshape](https://www.onshape.com) 操作
@@ -357,11 +382,139 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181029155217.2">###Week1 
+<t tx="leo.20181029155217.2">##  &lt;font color="FF4500"&gt;Week1&lt;/font&gt;
 
 說明如何利用 p37 中的 git 建立個人的 Github Pages 網站
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TFvVT9JWrFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20181101140445.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140445.2">##  &lt;font color="FF4500"&gt;Week2&lt;/font&gt;
+
+說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/q_1Ht6CLPWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20181101140515.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140515.2">##  &lt;font color="FF4500"&gt;Week3&lt;/font&gt;
+
+git 基本操作練習
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6WuI0PwWAps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20181101140525.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140525.2">##  &lt;font color="FF4500"&gt;Week4&lt;/font&gt;
+
+說明如何管理網誌。(以 Leo Editor 開啟 config/pelican.leo )
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zXTMPzB5tL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20181101140529.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140529.2">##  &lt;font color="FF4500"&gt;Week5&lt;/font&gt;
+
+說明如何管理簡報。(以 Leo Editor 開啟 config/reveal.leo)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EGDB0fZ7AeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181101140532.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140532.2">##  &lt;font color="FF4500"&gt;Week6&lt;/font&gt;
+
+說明如何更新README md
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1kWUzS9D8e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181101140548.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101140548.2">##  &lt;font color="FF4500"&gt;Week7&lt;/font&gt;
+
+說明如何升級最新的 CMSimfly 倉儲中的 flaskapp.py
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/It72vEtj2-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181101142348.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101142348.2">##  &lt;font color="FF4500"&gt;Week8&lt;/font&gt;
+
+在簡報中插入影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1wIqEuy8RNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181101142600.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101142600.2">#  &lt;font color="EEEE00"&gt;個人操作影片&lt;/font&gt;
+
 
 
 </t>
