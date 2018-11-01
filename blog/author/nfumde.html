@@ -148,11 +148,11 @@ init_mathjax();
 
             <li><a href="../pages/about/index.html">About</span></a></li>
             
-            <li><a href="../archives.html">影片內容</span></a></li>
+            <li><a href="../archives.html">Archives</span></a></li>
             
-            <li><a href="../categories.html">操作影片</span></a></li>
+            <li><a href="../categories.html">Categories</span></a></li>
             
-            <li><a href="../tags.html">git指令</span></a></li>
+            <li><a href="../tags.html">Tags</span></a></li>
 
     </ul>
   </div>
@@ -209,7 +209,114 @@ init_mathjax();
             </header>
                 <section class="post-excerpt">
                     <p>
-                        <p>2018 Fall 開始將網際內容管理、投影片與網誌進行整合.</p>
+                        <h1><font color="9932CC">課程內容</font></h1>
+<h4><font color="FF4500">git指令</font></h4>
+<h4><font color="EE0000">git clone</font> 從遠端倉儲複製到近端(並建立工作目錄)</h4>
+<h4><font color="EE0000">git commit -m "name"</font> 把暫存區之檔案提交到倉儲</h4>
+<h4><font color="EE0000">git push</font> 將近端存儲庫中物件推送到遠端倉儲</h4>
+<h4><font color="EE0000">git pull=git fetch=git merge origin/master</font>  將遠端倉儲之最新版本下載回來</h4>
+<h4><font color="EE0000">git ls-remote</font> 顯示特定遠端倉儲名稱</h4>
+<h4><font color="EE0000">mkdir name</font>  創建資料夾</h4>
+<h4><font color="EE0000">git status</font> 檢查狀態</h4>
+<h4><font color="EE0000">cd name</font> 進入資料夾</h4>
+<h4><font color="EE0000">git add . </font> 把檔案添加至暫存區(.代表全部)</h4>
+<h4><font color="EE0000">git reset --hard</font> 版本號 退回到某版本 (head代表當前版本)</h4>
+<h4><font color="EE0000">git rm file</font> 刪除工作區檔案</h4>
+<h4><font color="EE0000">git checkout --file</font> 恢復誤刪檔案</h4>
+<h4><font color="EE0000">git log</font> 查看版本之歷史紀錄</h4>
+<h4><font color="EE0000">git  branch name</font> 建立分支</h4>
+<h4><font color="EE0000">git checkout name</font> 切換分支</h4>
+<h4><font color="EE0000">git checkout -b name</font> 建立分支並切換至最新分支</h4>
+<h4><font color="EE0000">git checkout -d name</font> 刪除分支</h4>
+<h4><font color="EE0000">git stash</font> 將所有已列入追蹤之檔案建立暫存版本</h4>
+<h4><font color="EE0000">git stash -u</font> 將所有已列入追蹤或未追蹤之檔案建立暫存版本</h4>
+<h4><font color="EE0000">git stash pop</font> 取回暫存版本</h4>
+<h4><font color="EE0000">git config --global user.name "xxx"</font> 設定使用者名稱</h4>
+<h4><font color="EE0000">git config --global user.email "xxx"</font> 設定使用者信箱</h4>
+<h4><font color="EE0000">git diff file</font> 查看修改檔案之內容</h4>
+<h4><font color="EE0000">git reflog</font>  查看命令操作歷史</h4>
+<h4><font color="EE0000">git merge name</font> 合併分支到當前分支</h4>
+<h4><font color="EE0000">git init</font> 把當前目錄變成git可管理之倉儲</h4>
+<h4><font color="EE0000">git show</font> 查看該版本之相關資訊</h4>
+<h4><font color="EE0000">git bebase</font> 把另一分支變更,當作目前使用分支之基礎</h4>
+<h4><font color="EE0000">git remote add xxx</font> 對遠端設定新增一個代號</h4>
+<h4><font color="EE0000">git checkout . </font>回到上一個提交(當從上一個提交到下一次操作發生致命資料丟失使用)</h4>
+<h1><font color="9932CC">Python</font></h1>
+<h2><font color="FF4500">Python標識符</font></h2>
+<h4>Python標識符是用來標識一個變量，函數，類，模塊或其他對象的名稱。一個標識符開始以字母A到Z或a〜z或後跟零個或多個字母下劃線（_），下劃線和數字（0〜9）。</h4>
+<h4>Python中標識符內不允許標點符號，如@，$和％。 Python是一種區分大小寫的編程語言。</h4>
+<h2><font color="FF4500">Python 變數命名規則</font></h2>
+<h4>不是空序列</h4>
+<h4>開頭第一個字不能是數字，可使用大小寫字母或_</h4>
+<h4>不可與內建關鍵字同名</h4>
+<h4>Python3 加入Unicode(中文也可！)</h4>
+<h2><font color="FF4500">保留字</font></h2>
+<h4>下面列出了在Python中的保留字。這些保留字不可以被用作常量或變量，或任何其它標識符。所有Python關鍵字隻包含小寫字母。</h4>
+<h4>and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield</h4>
+<h2><font color="FF4500">數值資料型態</font></h2>
+<h4>整數型態：int、bool</h4>
+<h4>表示不限範圍的整數數字 : int</h4>
+<h4>(True or False)當被用在數值運算式中，True值為1，False值為0 :bool</h4>
+<h4>浮點數型態：float、complex</h4>
+<h4>雙精度浮點數 : float</h4>
+<h4>雙精度浮點數表示複數，複數z的實部和虛部可以通過z.real和z.imag取得 : complex</h4>
+<h2><font color="FF4500">數值運算符</font></h2>
+<h4>+</h4>
+<h4>-</h4>
+<h4>*</h4>
+<h4>/ ：除法，結果存為float</h4>
+<h4>// ：除法只留整數部分</h4>
+<h4>% ：取餘數</h4>
+<h2><font color="FF4500">比較運算符</font></h2>
+<h4>Python 提供了以下這些比較運算符：&lt;(小於)、&gt;(大於)、&lt;=(小於或等於)、&gt;=(大於或等於)、==(等於)、!=(不等於)</h4>
+<h2><font color="FF4500">邏輯運算符</font></h2>
+<h4>Python 提供了and(左右同時成立)、or(其中一個成立)、not(反向布林值)</h4>
+<h2><font color="FF4500">條件分支</font></h2>
+<h4>If , elif , else</h4>
+<h4>elif可以有多個或不使用，最後else也可以選擇用或不用</h4>
+<h1><font color="9932CC">操作影片</font></h1>
+<h2><font color="FF4500">第1周</font></h2>
+<h4>說明如何利用 p37 中的 git 建立個人的 Github Pages 網站</h4>
+<h4>進入github.io網站，創建個人帳號，並且從https://github.com/mdecourse/2018fall取得 CMSimfly.Reveal.js 與 Pelican Blog 內容。</h4>
+<h4></h4>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/TFvVT9JWrFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2><font color="FF4500">第2周</font></h2>
+<h4>說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲</h4>
+<h4>練習利用ShareX取圖.錄影.基本設定。</h4>
+<h4>登入github.io帳號進入github classroom系統領取對應之期中作業，利用settings 將內定branch設為gh-pages,，git clone作業倉儲至近端之後，練習Onshape的各項過程資料存入CMSimfly. Reveal.js與Pelican Blog中。</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2KCrQ8T5Dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第3周</font></h2>
+<h4>git 基本操作練習。</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6WuI0PwWAps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第4周</font></h2>
+<h4>說明如何管理網誌。(以 Leo Editor 開啟 config/pelican.leo )</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zXTMPzB5tL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第5周</font></h2>
+<h4>說明如何管理簡報。(以 Leo Editor 開啟 config/reveal.leo)</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EGDB0fZ7AeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第6周</font></h2>
+<h4>說明如何更新README md</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1kWUzS9D8e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第7周</font></h2>
+<h4>說明如何升級最新的 CMSimfly 倉儲中的 flaskapp.py</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/It72vEtj2-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2><font color="FF4500">第8周</font></h2>
+<h4>在簡報中插入影片</h4>
+<h4></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1wIqEuy8RNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
                     </p>
                 </section>
