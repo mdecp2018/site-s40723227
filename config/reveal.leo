@@ -51,6 +51,33 @@
 <v t="leo.20181101142348.1" a="E"><vh>Week8</vh>
 <v t="leo.20181101142348.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20190107154042.1" a="E"><vh>課程心得</vh>
+<v t="leo.20190107154042.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154047.1" a="E"><vh>Week9</vh>
+<v t="leo.20190107154047.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154049.1" a="E"><vh>Week10</vh>
+<v t="leo.20190107154049.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154051.1" a="E"><vh>Week11</vh>
+<v t="leo.20190107154051.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154054.1" a="E"><vh>Week13</vh>
+<v t="leo.20190107154054.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154056.1" a="E"><vh>Week14</vh>
+<v t="leo.20190107154056.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154812.1" a="E"><vh>Week15</vh>
+<v t="leo.20190107154812.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154823.1" a="E"><vh>Week16</vh>
+<v t="leo.20190107154823.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107154826.1" a="E"><vh>Week17</vh>
+<v t="leo.20190107154826.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20181021115410.1" a="E"><vh>投影片1</vh>
 <v t="leo.20181021115410.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -517,6 +544,128 @@ git 基本操作練習
 
 
 
+</t>
+<t tx="leo.20190107154042.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154042.2">##  &lt;font color="FF4500"&gt;期中後課程心得&lt;/font&gt;
+
+
+
+</t>
+<t tx="leo.20190107154047.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154047.2">##  &lt;font color="FF4500"&gt;Week9&lt;/font&gt;
+
+期末分組，為期末做一些規劃。
+</t>
+<t tx="leo.20190107154049.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154049.2">##  &lt;font color="FF4500"&gt;Week10&lt;/font&gt;
+
+這週學長教了我們eric6，eric6是一個自由的軟體整合式開發環境,主要為開發python和Ruby語言編寫的程式而設計。然後學長在上課時教了我們一些eric6的基本操作，做出一個很簡單的連動裝置，非常有趣。</t>
+<t tx="leo.20190107154051.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154051.2">##  &lt;font color="FF4500"&gt;Week11.12&lt;/font&gt;
+
+這周老師教了我們如何將heroku與github同步，heroku動態網站可跟github連結同步，heroku優點在於他支援的程式語言多，能做出更多的表達，用途多樣，但他需要收費。
+</t>
+<t tx="leo.20190107154054.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154054.2">##  &lt;font color="FF4500"&gt;Week13&lt;/font&gt;
+
+這週老師教了我們kmolgame的程式運轉，做了一些範例，雖然做出來的東西很簡單，但程式碼卻很難理解。
+
+</t>
+<t tx="leo.20190107154056.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154056.2">##  &lt;font color="FF4500"&gt;Week14&lt;/font&gt;
+
+這週老師教了我們網站登入所運行的程式指令，在裡面有用到if.elif的python語法，讓我了解更多的python語法。</t>
+<t tx="leo.20190107154812.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154812.2">##  &lt;font color="FF4500"&gt;Week15&lt;/font&gt;
+
+這周老師教我們如何利用協同markdown 編輯建立期末報告,以及如何利用brython建立網際程式,利用leo-editor來進行協同,讓每個組員做的東西都有紀錄,避免資料丟失。</t>
+<t tx="leo.20190107154823.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154823.2">##  &lt;font color="FF4500"&gt;Week16&lt;/font&gt;
+
+這週老師教了我們如何在CMSimfly頁面中，直接執行Ggame範例，因為是看老師的影片學的，沒有老師講解，我還是很多不了解的地方。</t>
+<t tx="leo.20190107154826.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107154826.2">##  &lt;font color="FF4500"&gt;Week17&lt;/font&gt;
+
+我們因為補課三天分別講了控制流程.物件導向.複製與參照，
+
+第一天講了控制流程裡的迴圈(loop)，迴圈是指一段在程式中只出現一次，但可能會連續執行多次的程式碼。
+
+
+第二天講了物件導向，物件導向基本上由類別(Class)與物件(Object)所組成，類別為建立物件之藍圖，描述所建立的物件共同的屬性和方法。物件為一個自我包含之實體，物件包括屬性和方法，屬性就是需要記憶的資訊，方法就是物件能提供的服務。
+
+第三天講了複製與參照，複製與參照裡的複製分為淺複製及深複製，差別在於淺複製只是指向被複製的內存地址，若原地址中對象被改變，那麼淺複製出來的對象也會相應改變，深複製則是在計算機中開闢一塊新的內存地址用於存放複製的對象。
 </t>
 </tnodes>
 </leo_file>
